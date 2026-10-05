@@ -1,0 +1,16 @@
+{
+    "name":"Spring Boot Dev Environment",
+    "image": "mcr.microsoft.com/devcontainers/java:21",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vmware.vscode-boot-dev-pack",
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    },
+
+    "forwardPorts": [8080],
+    "postCreateCommand": "java --version && git --version"
+}
