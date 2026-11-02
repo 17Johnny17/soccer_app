@@ -1,0 +1,26 @@
+{
+    "errors": [],
+    "results": 1,
+    "response": [
+        {
+            "player": {
+                "id": 276,
+                "name": "Test Player",
+                "firstname": "Test",
+                "lastname": "Player",
+                "age": 26,
+                "birth": {
+                    "date": "2000-04-15",
+                    "place": "London",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "180 cm",
+                "weight": "75 kg",
+                "number": 10,
+                "position": "Midfielder",
+                "photo": "https://soccer.test/players/276.png"
+            }
+        }
+    ]
+}
